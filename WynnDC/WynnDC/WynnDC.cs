@@ -123,7 +123,7 @@ namespace WynnDC
                     sclass = "ar";
                     spell.Items.Add("Arrow Storm I"); spell.Items.Add("Arrow Storm II"); spell.Items.Add("Arrow Storm III");
                     spell.Items.Add("Escape III");
-                    spell.Items.Add("Bomb Arrow I"); spell.Items.Add("Bomb Arrow III"); spell.Items.Add("Bomb Arrow III");
+                    spell.Items.Add("Bomb Arrow I"); spell.Items.Add("Bomb Arrow II"); spell.Items.Add("Bomb Arrow III");
                     spell.Items.Add("Arrow Shield I"); spell.Items.Add("Arrow Shield II"); spell.Items.Add("Arrow Shield III");
                     weapon.ImageLocation = "http://hydra-media.cursecdn.com/minecraft.gamepedia.com/4/49/Grid_Bow.png";
                     break;

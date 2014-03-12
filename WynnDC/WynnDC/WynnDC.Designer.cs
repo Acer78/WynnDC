@@ -62,7 +62,6 @@
             this.opDef = new System.Windows.Forms.TextBox();
             this.opResTxt = new System.Windows.Forms.Label();
             this.opRes = new System.Windows.Forms.ComboBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.helmet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.boots)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.leggings)).BeginInit();
@@ -421,22 +420,12 @@
             this.opRes.TabIndex = 34;
             this.opRes.SelectedIndexChanged += new System.EventHandler(this.opRes_SelectedIndexChanged);
             // 
-            // textBox1
-            // 
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox1.Font = new System.Drawing.Font("Minecraft", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(15, 372);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(518, 23);
-            this.textBox1.TabIndex = 36;
-            // 
             // WynnDC
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(556, 407);
-            this.Controls.Add(this.textBox1);
+            this.ClientSize = new System.Drawing.Size(556, 362);
             this.Controls.Add(this.opResTxt);
             this.Controls.Add(this.opRes);
             this.Controls.Add(this.opDefTxt);
@@ -521,7 +510,6 @@
         private System.Windows.Forms.TextBox opDef;
         private System.Windows.Forms.Label opResTxt;
         private System.Windows.Forms.ComboBox opRes;
-        private System.Windows.Forms.TextBox textBox1;
     }
 }
 
